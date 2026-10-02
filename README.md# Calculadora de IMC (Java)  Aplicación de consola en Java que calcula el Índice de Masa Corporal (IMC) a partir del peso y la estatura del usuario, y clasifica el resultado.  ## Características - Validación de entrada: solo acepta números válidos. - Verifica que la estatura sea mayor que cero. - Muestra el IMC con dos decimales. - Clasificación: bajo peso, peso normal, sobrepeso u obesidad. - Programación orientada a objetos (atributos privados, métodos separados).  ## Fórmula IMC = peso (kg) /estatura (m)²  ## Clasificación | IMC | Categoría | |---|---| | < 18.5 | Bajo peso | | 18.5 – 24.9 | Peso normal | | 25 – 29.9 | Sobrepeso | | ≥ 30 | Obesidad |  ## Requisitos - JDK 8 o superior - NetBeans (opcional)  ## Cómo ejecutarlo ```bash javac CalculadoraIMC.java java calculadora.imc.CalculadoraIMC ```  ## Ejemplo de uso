@@ -29,5 +29,3 @@ IMC = peso (kg) / estatura (m)²
 javac CalculadoraIMC.java
 java calculadora.imc.CalculadoraIMC
 ```
-
-## Ejemplo de uso
