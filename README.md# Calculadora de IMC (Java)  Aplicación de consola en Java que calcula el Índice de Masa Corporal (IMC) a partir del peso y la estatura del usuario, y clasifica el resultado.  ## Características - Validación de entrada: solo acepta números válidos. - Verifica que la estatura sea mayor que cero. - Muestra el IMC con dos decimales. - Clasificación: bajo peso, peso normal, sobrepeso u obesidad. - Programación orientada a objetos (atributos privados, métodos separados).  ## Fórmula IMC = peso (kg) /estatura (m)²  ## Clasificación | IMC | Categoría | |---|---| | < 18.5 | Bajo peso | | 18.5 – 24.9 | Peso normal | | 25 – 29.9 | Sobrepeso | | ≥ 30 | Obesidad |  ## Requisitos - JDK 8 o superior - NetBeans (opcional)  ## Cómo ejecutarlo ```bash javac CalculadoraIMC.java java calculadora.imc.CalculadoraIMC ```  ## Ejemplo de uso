@@ -1,0 +1,33 @@
+# Calculadora de IMC (Java)
+
+Aplicación de consola en Java que calcula el Índice de Masa Corporal (IMC) a partir del peso y la estatura del usuario, y clasifica el resultado.
+
+## Características
+- Validación de entrada: solo acepta números válidos.
+- Verifica que la estatura sea mayor que cero.
+- Muestra el IMC con dos decimales.
+- Clasificación: bajo peso, peso normal, sobrepeso u obesidad.
+- Programación orientada a objetos (atributos privados, métodos separados).
+
+## Fórmula
+IMC = peso (kg) / estatura (m)²
+
+## Clasificación
+| IMC | Categoría |
+|---|---|
+| < 18.5 | Bajo peso |
+| 18.5 – 24.9 | Peso normal |
+| 25 – 29.9 | Sobrepeso |
+| ≥ 30 | Obesidad |
+
+## Requisitos
+- JDK 8 o superior
+- NetBeans (opcional)
+
+## Cómo ejecutarlo
+```bash
+javac CalculadoraIMC.java
+java calculadora.imc.CalculadoraIMC
+```
+
+## Ejemplo de uso
